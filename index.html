@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La mia pagina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #007acc;
+      color: white;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #007acc;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button-link {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      background-color: #007acc;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button-link:hover {
+      background-color: #005f99;
+    }
+    .video-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Benvenuto nella mia pagina</h1>
+    <p>Un piccolo spazio per condividere i miei interessi</p>
+  </header>
+
+  <section>
+    <h2>Chi sono</h2>
+    <p>
+      Ciao! Mi chiamo <strong>Tuo Nome</strong> e sono appassionato di 
+      <em>matematica</em>, programmazione e divulgazione scientifica.
+    </p>
+    <p>
+      In questa pagina troverai link, risorse e materiali che voglio condividere.
+    </p>
+  </section>
+
+  <section>
+    <h2>Un breve video</h2>
+    <div class="video-container">
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/CODICE_VIDEO" 
+        title="Video di esempio" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>Link utili</h2>
+    <p>
+      Dai un’occhiata ai miei lavori su 
+      <a href="https://github.com/tuonome" target="_blank">GitHub</a>.
+    </p>
+    <p>
+      Oppure visita il mio profilo cliccando qui sotto:
+    </p>
+    <a class="button-link" href="https://github.com/tuonome" target="_blank">
+      Vai al mio GitHub
+    </a>
+  </section>
+</body>
+</html>

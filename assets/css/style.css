@@ -41,6 +41,7 @@ h1 {
   color: white;
 }
 
+
 p {
   font-size: 1.5em;
   margin-top: 10px;
@@ -73,7 +74,8 @@ section {
 section h2 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #007acc;
+  color: black;
+
 }
 
 section p {
@@ -123,7 +125,7 @@ section p {
 .project-content h3 {
   margin: 0 0 10px;
   font-size: 1.4em;
-  color: #007acc;
+  color: black;
 }
 
 .project-content p {
